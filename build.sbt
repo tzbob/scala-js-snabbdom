@@ -18,9 +18,7 @@ scalacOptions in ThisBuild ++= Seq(
   "-Ywarn-dead-code",
   "-Ywarn-numeric-widen",
   "-Ywarn-value-discard",
-  "-Xfuture",
-  "-language:higherKinds",
-  "-language:implicitConversions"
+  "-Xfuture"
 )
 
 version := "0.1.0-SNAPSHOT"
