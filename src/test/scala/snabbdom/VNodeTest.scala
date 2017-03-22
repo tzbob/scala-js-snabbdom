@@ -1,11 +1,12 @@
+package snabbdom
+
+import org.scalajs.dom
+import org.scalajs.dom.raw.Element
 import org.scalatest.FunSuite
 
 import scala.scalajs.js
-import scalajs.js.JSConverters._
-import org.scalajs.dom
-import org.scalajs.dom.raw.Element
-
 import scala.scalajs.js.Any
+import scala.scalajs.js.JSConverters._
 
 class VNodeTest extends FunSuite {
 

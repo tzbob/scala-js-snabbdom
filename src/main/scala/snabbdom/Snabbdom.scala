@@ -1,3 +1,5 @@
+package snabbdom
+
 import org.scalajs.dom.{Element, Text}
 
 import scala.scalajs.js

@@ -1,6 +1,9 @@
+package snabbdom
+
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
+@js.native
 trait SnabbModule extends js.Object
 
 @JSImport("snabbdom/modules/attributes", JSImport.Default)
