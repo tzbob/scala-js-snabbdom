@@ -25,12 +25,12 @@ object h
 
 @js.native
 class VNode(
-    selector: js.UndefOr[String],
-    data: js.UndefOr[VNodeData],
-    children: js.UndefOr[js.Array[VNode | String]],
-    text: js.UndefOr[String],
-    elm: js.UndefOr[Element | Text],
-    key: js.UndefOr[String | Double]
+    val selector: js.UndefOr[String],
+    val data: js.UndefOr[VNodeData],
+    val children: js.UndefOr[js.Array[VNode | String]],
+    val text: js.UndefOr[String],
+    val elm: js.UndefOr[Element | Text],
+    val key: js.UndefOr[String | Double]
 ) extends js.Object
 
 @js.native
