@@ -14,7 +14,7 @@ object Snabbdom extends js.Object {
     : js.Function2[VNode | Element, VNode, VNode] = js.native
 }
 
-@JSImport("snabbdom/h", Namespace)
+@JSImport("snabbdom/h", JSImport.Default)
 @js.native
 object h
     extends js.Function3[String, js.UndefOr[js.Any], js.UndefOr[js.Any], VNode] {
