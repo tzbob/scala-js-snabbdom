@@ -1,0 +1,24 @@
+{
+  "name": "scala-js-snabbdom",
+  "version": "1.0.0",
+  "description": "A crude Scala-JS binding to Snabbdom using Scala.js bundler.",
+  "main": "index.js",
+  "dependencies": {
+    "jsdom": "^9.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzbob/scala-js-snabbdom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tzbob/scala-js-snabbdom/issues"
+  },
+  "homepage": "https://github.com/tzbob/scala-js-snabbdom#readme"
+}

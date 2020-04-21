@@ -3,7 +3,7 @@ package snabbdom
 import org.scalajs.dom.{Element, Text}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSImport
+import scala.scalajs.js.annotation.{JSGlobal, JSImport}
 import scala.scalajs.js.annotation.JSImport.Namespace
 import scala.scalajs.js.|
 
@@ -24,6 +24,7 @@ object h
 }
 
 @js.native
+@JSGlobal
 class VNode(
     val selector: js.UndefOr[String],
     val data: js.UndefOr[VNodeData],
@@ -34,4 +35,5 @@ class VNode(
 ) extends js.Object
 
 @js.native
+@JSGlobal
 class VNodeData extends js.Object
