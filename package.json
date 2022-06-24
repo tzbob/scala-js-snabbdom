@@ -4,7 +4,7 @@
   "description": "A crude Scala-JS binding to Snabbdom using Scala.js bundler.",
   "main": "index.js",
   "dependencies": {
-    "jsdom": "^9.9.0"
+    "jsdom": "^16.5.0"
   },
   "devDependencies": {},
   "scripts": {
